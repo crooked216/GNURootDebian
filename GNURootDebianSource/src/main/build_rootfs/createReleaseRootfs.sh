@@ -1,5 +1,5 @@
 #!/bin/sh -e
-# get necessary packages
+# get necessary 
 apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get -y install binfmt-support qemu qemu-user-static debootstrap
 rm -rf $2
